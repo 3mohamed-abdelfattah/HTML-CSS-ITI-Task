@@ -5,36 +5,59 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .page {
     display: none;
-    padding: 20px;
+    padding: 1%;
 }
+
 .page:target {
     display: block;
 }
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #0094F6;
     color: white;
-    padding: 10px;
+    padding: 1%;
     text-align: center;
     z-index: 1000;
+    font-size: 2em;
+
 }
+
 nav a {
     color: #ffffff;
     margin: 2%;
     text-shadow: 1px 1px 2px #000000;
     text-decoration: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1em;
 }
+
 nav a:hover {
     color: #000000;
-    text-shadow: 1px 1px 2px  #ffffff;
+    text-shadow: 1px 1px 2px #ffffff;
 
 }
+
 section {
-    margin-top: 5%;
+    margin-top: 10vh;
+}
+
+
+
+/* Home Page Style*/
+.photoHomeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.homePhoto {
+    width: 28vw;
+    border:5px solid #ffffffa4;
+    border-radius: 10%;
+    box-shadow:2vw 2vw  20px #0094F6;
 }
