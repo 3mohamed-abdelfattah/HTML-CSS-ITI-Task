@@ -40,11 +40,13 @@ nav a {
 nav a:hover {
     color: #000000;
     text-shadow: 1px 1px 2px #ffffff;
-
 }
 
 section {
     margin-top: 10vh;
+}
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 
@@ -56,8 +58,39 @@ section {
 }
 
 .homePhoto {
-    width: 28vw;
-    border:5px solid #ffffffa4;
-    border-radius: 10%;
-    box-shadow:2vw 2vw  20px #0094F6;
+    max-width: 30%;
+    height: auto;
+    border: #ffffff solid 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 3); 
+}
+
+/* Hobbiew Page Style*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+}
+
+.grid-item {
+    text-align: center;
+
+}
+
+.hobbiesPhoto {
+    max-width: 45%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 1s ease-in-out;
+}
+
+.scale:hover .hobbiesPhoto{
+transform: scale(1.09);
+}
+
+.image-text {
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #333;
 }
