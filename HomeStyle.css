@@ -1,0 +1,40 @@
+body {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.page {
+    display: none;
+    padding: 20px;
+}
+.page:target {
+    display: block;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0094F6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+nav a {
+    color: #ffffff;
+    margin: 2%;
+    text-shadow: 1px 1px 2px #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #000000;
+    text-shadow: 1px 1px 2px  #ffffff;
+
+}
+section {
+    margin-top: 5%;
+}
