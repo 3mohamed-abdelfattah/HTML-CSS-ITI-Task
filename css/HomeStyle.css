@@ -244,3 +244,37 @@ button:hover {
 .slider-content {
     animation: slideAnimation 20s infinite;
 }
+
+/* CV Page */
+
+h1,
+h2 {
+    color: #0094F6;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 10px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-item ul li {
+    margin-bottom: 5px;
+}

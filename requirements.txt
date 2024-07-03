@@ -1,6 +1,6 @@
-HTML&CSS  Project requirements (Individual):
+HTML  CSS  Project requirements (Individual):
 
-1- don't use table in your project 
+1- dont use table in your project 
 
 2- make your layout look great using html and css only, all pages will display in the same page. 
 
@@ -8,7 +8,7 @@ HTML&CSS  Project requirements (Individual):
 
 4- page 1 => for your home page, you  can add anything in this page for example an image with some info about you 
 
-5- page 2 => for your hobbies page and it will contain some images describing your hobbies and when you hover on each image it's zooming 
+5- page 2 => for your hobbies page and it will contain some images describing your hobbies and when you hover on each image its zooming 
 
 6- page 3 => for your birthday, and it will contain an image after 5 sec the content will change to be a textarea with submit button so user can write a kind msg for you, after submit redirect to page for thank user but in the same layout 
 
