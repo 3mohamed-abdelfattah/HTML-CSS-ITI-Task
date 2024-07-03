@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/HomeStyle.css">
+    <link rel="stylesheet" href="css/HomeStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
     <!-- Home content -->
     <section id="home" class="page">
         <div class="photoHomeDiv">
-            <img class="homePhoto" src="/Photos/myPhoto.jpg" />
+            <img class="homePhoto" src="Photos/myPhoto.jpg" />
         </div>
         <h2 style="color:#0094F6;text-align: center;margin-top: 5%;font-size: 2em;">Hey...</h2>
         <p style="padding: 2%;text-align: center;font-size: 1em">
@@ -50,21 +50,21 @@
         <div class="grid-container">
             <div class="grid-item">
                 <div class="scale">
-                    <img class="hobbiesPhoto" src="/Photos/hobbies1.jpg" alt="Hobby 2">
+                    <img class="hobbiesPhoto" src="Photos/hobbies1.jpg" alt="Hobby 2">
                     <div class="image-text">Gym: I enjoy going to the gym to stay fit and healthy. It's a great way to
                         exercise and build strength.</div>
                 </div>
             </div>
             <div class="grid-item">
                 <div class="scale">
-                    <img class="hobbiesPhoto" src="/Photos/hobbies2.jpg" alt="Hobby 3">
+                    <img class="hobbiesPhoto" src="Photos/hobbies2.jpg" alt="Hobby 3">
                     <div class="image-text">Reading: Reading is one of my favorite hobbies. I love diving into different
                         genres and exploring new worlds through books.</div>
                 </div>
             </div>
             <div class="grid-item">
                 <div class="scale">
-                    <img class="hobbiesPhoto" src="/Photos/hobbies3.jpg" alt="Hobby 4">
+                    <img class="hobbiesPhoto" src="Photos/hobbies3.jpg" alt="Hobby 4">
                     <div class="image-text">Playing Video Games: Playing video games is a fun way for me to unwind and
                         enjoy immersive experiences, whether it's exploring vast virtual worlds or competing in
                         multiplayer games.</div>
@@ -72,7 +72,7 @@
             </div>
             <div class="grid-item">
                 <div class="scale">
-                    <img class="hobbiesPhoto" src="/Photos/hobbies4.jpg" alt="Hobby 5">
+                    <img class="hobbiesPhoto" src="Photos/hobbies4.jpg" alt="Hobby 5">
                     <div class="image-text">Chess: Chess is a strategic board game that I find intellectually
                         stimulating. I enjoy the challenge of planning moves ahead and improving my skills.</div>
                 </div>
@@ -80,11 +80,23 @@
         </div>
     </section>
 
-    <!-- birthday content -->
-
+    <!-- Birthday content -->
     <section id="birthday" class="page">
-        <h1>Birthday Page</h1>
-        <p>Happy Birthday!</p>
+        <div class="birthday-content">
+            <h1>Birthday Page</h1>
+            <div class="content" id="birthday-content">
+                    <img src="Photos/birthday.jpg" alt="Birthday Image">
+            </div>
+                <form  method="post" action="#thank-you">
+                    <textarea name="message" placeholder="Write a kind message..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+        </div>
+    </section>
+    <!-- Thank You Section -->
+    <section id="thank-you" class="page">
+        <h1>Thank You!</h1>
+        <p>Your message has been received.</p>
     </section>
 
     <!-- contact content -->

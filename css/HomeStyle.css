@@ -45,7 +45,8 @@ nav a:hover {
 section {
     margin-top: 10vh;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -62,7 +63,7 @@ section {
     height: auto;
     border: #ffffff solid 5px;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 3); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 3);
 }
 
 /* Hobbiew Page Style*/
@@ -81,16 +82,80 @@ section {
     max-width: 45%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 1s ease-in-out;
 }
 
-.scale:hover .hobbiesPhoto{
-transform: scale(1.09);
+.scale:hover .hobbiesPhoto {
+    transform: scale(1.09);
 }
 
 .image-text {
     margin-top: 2%;
     font-size: 1rem;
     color: #333;
+}
+
+/*  Birthday Page */
+.birthday-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.birthday-message {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.show-message .birthday-message {
+    display: block;
+    opacity: 1;
+}
+
+.birthday-message form {
+    max-width: 50%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0094F6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.birthday-message button:hover {
+    background-color: #0077CC;
+}
+
+.birthday-content img {
+    width: 25%;
+    margin: 1%;
+    opacity: 0;
+    animation: fadeIn 5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
