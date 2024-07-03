@@ -118,12 +118,12 @@ section {
 }
 
 .birthday-message form {
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
 }
 
 textarea {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     margin-bottom: 10px;
     resize: vertical;
@@ -137,6 +137,11 @@ button {
     border: none;
     cursor: pointer;
     font-size: 1em;
+    border-radius: 15%;
+}
+button:hover {
+    background-color: #0269ad;
+    color: #000000;
 }
 
 .birthday-message button:hover {
