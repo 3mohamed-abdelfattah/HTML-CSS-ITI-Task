@@ -1,11 +1,11 @@
-# HTML & CSS Project
+# HTML & CSS Task
 
-This is a single-page layout project that showcases various sections including a home page, hobbies, birthday, contact form, image slider, and a CV page. The project is built using only HTML and CSS without any JavaScript.
+This single-page layout project showcases various sections including a home page, hobbies, birthday, contact form, image slider, and a CV page. The project is built using only HTML and CSS without any JavaScript.
 
-## Project Requirements
+## Task Requirements
 
 1. Do not use tables in the project.
-2. Make the layout look great using only HTML and CSS. All pages should display on the same page.
+2. Make the layout look great using only HTML and CSS. All pages should be displayed on the same page.
 3. The project contains approximately 7 pages (or more if needed).
 
 ## Pages Description
@@ -23,7 +23,7 @@ This is a single-page layout project that showcases various sections including a
 ### Page 3: Birthday Page
 
 - Initially contains an image.
-- After 5 seconds, the content changes to a textarea with a submit button for the user to write a kind message.
+- After 5 seconds, the content changes to text with a submit button for the user to write a kind message.
 - After submission, it redirects to a thank you page within the same layout.
 
 ### Page 4: Contact Us Page
